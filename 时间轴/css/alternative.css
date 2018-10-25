@@ -1,0 +1,158 @@
+.Shennong,.bian-que,.zhon-jing,.ge-hong,.chao-yuan,.sun-simiao,.liu-yuanshu,.cong-zheng,.li-dong-yuan,.li-shizhen,.wang-kentang,.wu-youke,.ye-tianshi{
+    top: 20px !important;
+    color:#8a3611 ;
+}
+.hua-tuo,.zhang-zhon-jing,.lei-xiao,.wang-tao,.lin-taoist,.tang-shen-wei{
+    font-size: 25px !important;
+}
+.Shennong span{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 322px;
+    color: #8A3611;
+}
+.bian-que span {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 12px;
+}
+.bian-que img{
+    margin-top: 120px;
+}
+.zhang-zhon-jing{
+    margin-top: 300px !important;
+}
+.zhon-jing img{
+    top: 20px !important;
+}
+.hua-tuo-img img{
+    top: 40px !important;
+}
+.ge-hong span{
+    display: inline-block;
+   margin-top: 220px;
+ }
+.lei-xiao-img img{
+    top: 88px !important;
+}
+.tao-hong-jing img{
+     top: 120px !important;
+ }
+.chao-yuan span{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 220px;
+}
+.sun-simiao span{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 240px;
+}
+.wang-tao-img img{
+    width: 350px !important;
+    margin-top: 80px;
+}
+.lin-taoist{
+    font-size: 30px !important;
+    margin-top: 60px !important;
+}
+.only span{
+    margin-top: 280px;
+}
+.shen-wei img{
+    margin-top: 40px;
+}
+.government{
+    font-size: 30px !important;
+    margin-top: 40px !important;
+}
+.qian-yi{
+    top: 0 !important;
+}
+.qian-yi img{
+    width: 350px !important;
+    margin-top: -40px !important;
+}
+.qian-yi span{
+    display: inline-block;
+    margin-top: 320px;
+}
+.liu-yuanshu img{
+    margin-top: 110px;
+}
+.zhang-congzheng{
+    top: 0 !important;
+}
+.cong-zheng img{
+    top: 10px !important;
+    max-width: 400px !important;
+}
+.cong-zheng span{
+
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 250px;
+}
+.li-shizhen span{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 280px;
+}
+.wang-kentang img{
+    max-width: 400px !important;
+}
+.wang-kentang span{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 220px;
+}
+.wu-youke img,.ye-tianshi img{
+    max-width: 350px !important;
+}
+.wu-youke span,.ye-tianshi span{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 280px;
+}
+.ye-tianshi span{
+    margin-top: 330px;
+}
+
+@media (min-height: 900px)  {
+    .Shennong{
+        top: 10px !important;
+    }
+    .Shennong img{
+        width: 350px !important;
+    }
+    .Shennong span{
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 378px;
+        color: yellowgreen;
+    }
+    .liu-yuanshu {
+        width: 567px !important;
+    }
+    .liu-yuanshu img{
+        width: 610px !important;
+    }
+    .ge-hong span{
+        margin-top: 330px;
+    }
+    .chao-yuan span{
+        margin-top: 340px;
+    }
+    .sun-simiao span{
+        margin-top: 360px;
+    }
+    .only span{
+        margin-top: 400px;
+    }
+    .li-shizhen span{
+        margin-top: 400px;
+    }
+    .zhang-zhon-jing{
+        margin-top: 350px;
+    }
+}

@@ -1,0 +1,716 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中医发展史</title>
+    <link rel="stylesheet" type="text/css" href="css/reset_y.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/alternative.css">
+    <script id="jquery_183" type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script>
+        (function () {
+            if (!
+                    /*@cc_on!@*/
+                    0) return;
+            var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+            var i = e.length;
+            while (i--) {
+                document.createElement(e[i])
+            }
+        })()
+    </script>
+</head>
+<body class="impress-not-supported">
+
+<div class="bg"><img src="images/bg04.png" width="100%"/></div>
+
+<header class="top" id="top" >
+    <div class="music" id="bgMusicSwitch" title="停止背景音乐">
+        <div class="triangle"></div>
+        <div class="pause pause1"></div>
+        <div class="pause pause2"></div>
+        <audio id="player" preload="auto"   src="music/music1.mp3"
+               autoplay="true" loop="true" autostart="true"
+        ></audio>
+
+    </div>
+</header>
+
+<section id="timeline" class="timeline">
+    <div id="line" class="line_white"></div>
+    <div id="impress">
+        <div id="timeList">
+            <div class="step year" data-x="-600" data-y="0" data-scale="0.5" id="0">
+                <div class="year2012">先秦两汉</div>
+                <div class="list_show">先秦两汉时期<br/></div>
+            </div>
+            <div class="timeList_item step" data-x="0" data-y="0" id="1">
+                <div class="circle">诸家 </div>
+                <h2 class="timeList_item_title">诸家</h2>
+                <div class="list_show show3">
+                    <img src="images/event1.png" width="500">
+                    <h2><a href="#">《黄帝内经》
+                    </a></h2>
+                    <p>中医学理论体系形成的标志。构建独特的理论体系，包括“阴阳五行”、“藏象”、“脉象”、“经络”、“诊法”、“病因病机”、“治未病”等，成为中医学发展的基础和理论源泉。</p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="200" data-y="0" id="2">
+                <div class="circle">神农氏</div>
+                <h2 class="timeList_item_title">《神农本草经》</h2>
+                <div class="list_show ">
+                    <img src="images/event2.png">
+
+                    <p class="m160 Shennong" >
+                        <img src="images/event2-1.png"/>
+                        <span>现存最早的中药学著作。载药365种，提出“七情和合”原则，采用三品分类法将药物分为上、中、下三品，是对中医药的第一次系统总结。</span>
+                    </p>
+                </div>
+
+            </div>
+            <div class="timeList_item step" data-x="400" data-y="0" id="3">
+                <div class="circle">扁鹊</div>
+                <h2 class="timeList_item_title">《难经》</h2>
+                <div class="list_show">
+                    <img src="images/event3.png" width="500">
+                    <p class="m160 bian-que" >
+                        <span>现存较早的经典著作。
+全书共八十一难，采用问答方式，内容包括脉诊、经络、脏腑、阴阳、病因、病机、营卫、腧穴、针刺等方面。</span>
+                        <img src="images/event3-1.png"/>
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="600" data-y="0" id="4">
+                <div class="circle">张仲景</div>
+                <h2 class="timeList_item_title">《伤寒杂病论》</h2>
+                <div class="list_show show3">
+                    <img src="images/event4.png" width="500">
+
+                    <p class="zhon-jing"> <img src="images/event4-1.png"/></p>
+                    <h2 class="zhang-zhon-jing" >中医辨证论治的奠基之作。
+                        创造性地确立“六经”辨证，奠定理、法、方、药的理论基础。本书为历代医家必读，并广泛流传于海外，被崇为“方书之祖”。</h2>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="800" data-y="0" id="5">
+                <div class="circle">华佗</div>
+                <h2 class="timeList_item_title">《中藏经》</h2>
+                <div class="list_show show4">
+                    <img src="images/event5.jpg" width="500">
+                    <h2 class="hua-tuo"><a href="#">首创用全身麻醉法施行外科手术，被后世尊之为“外科鼻祖”。特别提倡养生之道，编排 “五禽戏”以强健身体。</a></h2>
+                    <p class="hua-tuo-img"><img src="images/event5-1.jpg"/></p>
+                </div>
+            </div>
+            <!--魏晋南北朝时期-->
+            <div class="step year" data-x="800" data-y="0" data-scale="0.5" id="6">
+                <div class="year2012">魏晋南北朝</div>
+                <div class="list_show">魏晋南北朝时期</div>
+            </div>
+
+
+            <div class="timeList_item step" data-x="1400" data-y="0" id="7">
+                <div class="circle">王叔和</div>
+                <h2 class="timeList_item_title">《脉经》</h2>
+                <div class="list_show">
+                    <img src="images/event6.jpg" width="500">
+                    <h2>《脉经》</h2>
+                    <p>我国最早的脉学专著。
+                        集汉以前脉学之大成，首次系统归纳了24种脉象，分述寸口、三部九候等脉法，为后世脉学发展奠定基础。
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="1600" data-y="0" id="8">
+                <div class="circle">葛洪</div>
+                <h2 class="timeList_item_title">《肘后备急方》</h2>
+                <div class="list_show show4">
+                    <img src="images/event7.png">
+                    <p class="ge-hong">
+                        <img src="images/event7-1.png"/>
+                        <span>《肘后备急方》 <br>
+                         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp中国第一部临床急救手册。
+记述多种急性病或某些慢性病急性发作的治疗方法，首次记载天花、恙虫病、脚气病等。</span>
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="1800" data-y="0" id="9">
+                <div class="circle">刘涓子</div>
+                <h2 class="timeList_item_title">《刘涓子鬼遗方》</h2>
+                <div class="list_show">
+                    <img src="images/event8-1.jpg" width="500" style="height: 400px;">
+                    <h2><a href="#">《刘涓子鬼遗方》</a></h2>
+                    <p>我国现存最早的外科专著。
+                        详细论述痈疽各证，治疗多用清热解毒，提出“火不止则盛，热盛肉腐为脓”。
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="2000" data-y="0" id="10">
+                <div class="circle">雷敩</div>
+                <h2 class="timeList_item_title">《雷公炮炙论》</h2>
+                <div class="list_show show3">
+                    <img src="images/event9.jpg" width="500">
+                    <h2 class="lei-xiao">《雷公炮炙论》<br>
+                        我国最早的中药炮制学专著。载药约300种，描述所载药材性状、鉴别要点，初部奠定中药炮制学基础。
+                    </h2>
+                    <p class="lei-xiao-img"><img src="images/event9-1.jpg"/></p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="2200" data-y="0" id="11">
+                <div class="circle">皇甫谧</div>
+                <h2 class="timeList_item_title">《针灸甲乙经》</h2>
+                <div class="list_show">
+                    <img src="images/event10.png" width="500">
+                    <h2><a href="#">《针灸甲乙经》</a></h2>
+                    <p class="m160">我国现存最早的针灸学专著。
+                        采用分部及经络分类法厘定腧穴，详述各穴适应证、针刺深度、禁忌及灸法，对针灸学发展起到承前启后的巨大作用。
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="2400" data-y="0" id="12">
+                <div class="circle">陶弘景</div>
+                <h2 class="timeList_item_title">《神农本草经集注》</h2>
+                <div class="list_show show4">
+                    <img src="images/event11.jpg" width="500">
+                    <h2>《神农本草经集注》<br>新增载药365 种，首创自然属性分类法。</h2>
+                    <p class="tao-hong-jing"><img src="images/event11-1.jpg"/></p>
+                </div>
+            </div>
+            <!--隋唐时期-->
+            <div class="step year" data-x="2400" data-y="0" data-scale="0.5" id="13">
+                <div class="year2012">隋唐</div>
+                <div class="list_show">隋唐时期</div>
+            </div>
+
+            <div class="timeList_item step" data-x="2800" data-y="0" id="14">
+                <div class="circle">巢元方</div>
+                <h2 class="timeList_item_title">《诸病源候论》</h2>
+                <div class="list_show">
+                    <img src="images/event12.jpg" width="500" style="height: 400px;">
+                    <p class="chao-yuan">
+                        <img src="images/event12-1.jpg"/>
+                        <span>《诸病源候论》<br>我国第一部论述病因、病机及证候专著；载列证候1739论，颇多创见，如明确指出传染病“感其乖戾之气而发病”、消渴病多发痈疖或水肿，载有难度较大之肠吻合及血管结扎术等，且征引甚富，为研究隋以前医学成就的重要文献。</span>
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="3000" data-y="0" id="15">
+                <div class="circle">唐政府</div>
+                <h2 class="timeList_item_title">《新修本草》</h2>
+                <div class="list_show">
+                    <img src="images/event13-1.jpg" width="500">
+                    <h2><a href="#">《新修本草》</a></h2>
+                    <p>中国第一部政府颁布的药典，世界上最早的药典。载药850种，纠正陶氏谬误，为后世辨正药物基原提供依据。</p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="3200" data-y="0" id="16">
+                <div class="circle">孙思邈</div>
+                <h2 class="timeList_item_title">《千金要方》《千金翼方》</h2>
+                <div class="list_show">
+                    <img src="images/event14.jpg" width="500" style="height: 400px;">
+                    <p class="sun-simiao">
+                        <img src="images/event14-1.jpg"/>
+                        <span>《千金要方》《千金翼方》<br>综合性临床医著，被誉为中国最早的临床百科全书。
+重视医德规范，人命至重，不分贵贱；该书集唐代以前诊治经验之大成，开创脏腑分类方剂先河，设立妇、儿专卷等，对后世医家影响极大。</span>
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="timeList_item step" data-x="3400" data-y="0" id="17">
+                <div class="circle">王焘</div>
+                <h2 class="timeList_item_title">《外台秘要》</h2>
+                <div class="list_show show5">
+                    <img src="images/event15.jpg" width="500">
+                    <h2 class="wang-tao">《外台秘要》<br>本书对初唐及唐以前的医学著作进行整理，凡书中引用均详细注明出处，为中医文献研究提供宝贵依据。</h2>
+                    <p class="wang-tao-img"><img src="images/event15-1.jpg"/></p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="3600" data-y="0" id="18" >
+                <div class="circle">蔺道人</div>
+                <h2 class="timeList_item_title">《仙授理伤续断秘方》</h2>
+                <div class="list_show">
+                    <img src="images/event16.jpg" width="500" style="height: 400px;">
+                    <h2 class="lin-taoist">《仙授理伤续断秘方》<br>中国现存最早的骨伤科专著。
+                        强调骨折整复、固定、活动及内外用药的治疗原则，记载了多种整复方法、全身麻醉方，是中国骨伤科学的奠基之作。
+                    </h2>
+                   <!-- <p><img src="images/event16-1.jpg"/></p>-->
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="3800" data-y="0" id="19">
+                <div class="circle">昝殷</div>
+                <h2 class="timeList_item_title">《经效产宝》</h2>
+                <div class="list_show">
+                    <img src="images/event17-1.jpg" width="500" style="height: 400px;">
+                    <h2><a href="#">《经效产宝》</a></h2>
+                    <p>现存最早的妇产科专著。本书重点论述胎、产诸疾证治，上卷论经闭、带下、妊娠诸病，中卷以产难为主，下卷述产后诸证。</p>
+                </div>
+            </div>
+            <!--宋金元时期-->
+            <div class="step year" data-x="3800" data-y="0" data-scale="0.5" id="20">
+                <div class="year2012">宋金元</div>
+                <div class="list_show">宋金元时期</div>
+
+            </div>
+            <div class="timeList_item step" data-x="4400" data-y="0" id="21">
+                <div class="circle">王惟一</div>
+                <h2 class="timeList_item_title">《铜人腧穴针灸图经》</h2>
+                <div class="list_show">
+                    <img src="images/event18.jpg" width="500" style="height: 400px;">
+                    <p class="sun-simiao only">
+                        <img src="images/event18-1.jpg"/>
+                        <span>《铜人腧穴针灸图经》<br>本书按经络循行及身体分部排列腧穴，既记载经络系统，又便于临证需要；并铸造针灸铜人，是中国针灸史上的里程碑。</span>
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="4600" data-y="0" id="22">
+                <div class="circle">唐慎微</div>
+                <h2 class="timeList_item_title">《经史证类备急本草》</h2>
+                <div class="list_show show4">
+                    <img src="images/event19.jpg" width="500" style="height: 400px;">
+                    <h2 class="tang-shen-wei">《经史证类备急本草》载药1748种，本书重在汇集前人药学之作，参引经史百家典籍百余种，为宋代本草集大成之作。
+                    </h2>
+                    <p class="shen-wei"><img src="images/event19-1.jpg"/></p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="4800" data-y="0" id="23">
+                <div class="circle">宋政府</div>
+                <h2 class="timeList_item_title">《太平惠民和剂局方》</h2>
+                <div class="list_show ">
+                    <img src="images/event20-1.png"/>
+                    <h2 class="government">《太平惠民和剂局方》世界第一部由官方主持编撰的成药标准。
+                        载方788首，记述其主治、配伍及具体修制法，至今仍广泛为临床所参考。
+                    </h2>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="5000" data-y="0" id="24">
+                <div class="circle">钱乙</div>
+                <h2 class="timeList_item_title">《小儿药证直诀》</h2>
+                <div class="list_show show5">
+                    <img src="images/event21.jpg" width="500" style="height:400px;">
+                    <p class="qian-yi">
+                        <img src="images/event19-1.jpg"/>
+                        <span>《小儿药证直诀》第一部中医儿科学专著。
+                        提出“小儿脏腑柔弱，易虚易实，易寒易热”，以柔养脏腑为本。
+                    </span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="5200" data-y="0" id="25">
+                <div class="circle">陈言</div>
+                <h2 class="timeList_item_title">《三因极一病证方论》</h2>
+                <div class="list_show ">
+                    <img src="images/event22-1.jpg" width="500">
+                    <h2>《三因极一病证方论》首将病因归为“内因、外因、不内外因”三类，成为后世病因学说规范。</h2>
+
+                </div>
+            </div>
+
+           <!-- <div class="step" data-x="4200" data-y="0" data-scale="0.5" id="2013">
+                <div class="year2013"> 2013</div>
+                <div class="list_show year"> 此时末日已远······</div>
+            </div>-->
+            <div class="timeList_item step" data-x="5400" data-y="0" id="26">
+                <div class="circle">刘完素</div>
+                <h2 class="timeList_item_title">《素问玄机原病式》</h2>
+                <div class="list_show show5">
+                    <img src="images/event23.jpg" width="500">
+
+                    <p class="m160 liu-yuanshu">
+
+                        <span>刘完素“金元四大家”之“寒凉派”创始人。
+以火热立论，用药多寒凉，力倡“六气皆从火化”、“五志过极皆能生火”，对温病学说形成有深刻影响。</span>
+                        <img src="images/event23-1.jpg" >
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="5600" data-y="0" id="27">
+                <div class="circle">张从正</div>
+                <h2 class="timeList_item_title">《儒门事亲》</h2>
+                <div class="list_show show2">
+                    <img src="images/event24.jpg" class="opacity7 zhang-congzheng">
+                    <p class="m160 cong-zheng">
+                        <img src="images/event24-1.jpg" >
+                        <span>张从正“金元四大家”之“攻下派”创始人。
+                        传河间之学，认为病由邪生，攻邪已病，主张“邪去则正安”，以汗、吐、下三法以攻邪，对中医治疗学的发展作出了重要贡献。</span>
+
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="5800" data-y="0" id="28">
+                <div class="circle">李东垣</div>
+                <h2 class="timeList_item_title">《内外伤辨惑论》《脾胃论》</h2>
+                <div class="list_show ">
+                    <img src="images/event25.jpg" style="height: 400px;" >
+                    <p class="m160 ">
+
+                        <span>李东垣“金元四大家”之“补土派”创始人。
+重视脾胃，提出“脾胃内伤，百病由生”，将补脾胃、升清阳、泻阴火、调整升降失常作为治疗大法，具有重要的临床指导意义。
+</span>
+
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="6000" data-y="0" id="29">
+                <div class="circle">朱丹溪</div>
+                <h2 class="timeList_item_title">《格致余论》《丹溪心法》</h2>
+                <div class="list_show ">
+                    <img src="images/event26.jpg" style="height: 400px;" >
+                    <p class="m160 ">
+
+                        <span>朱丹溪“金元四大家”之“滋阴派”创始人。
+治病以滋阴、降火为主，力倡“阳常有余，阴常不足”之说，在中国医学史上占有重要地位。
+</span>
+
+
+                    </p>
+                </div>
+            </div>
+            <!--明清时期-->
+            <div class="step year" data-x="6000" data-y="0" data-scale="0.5" id="30">
+                <div class="year2012">明清</div>
+                <div class="list_show">明清时期</div>
+
+            </div>
+            <div class="timeList_item step" data-x="6400" data-y="0" id="31">
+                <div class="circle">李时珍</div>
+                <h2 class="timeList_item_title">《本草纲目》《濒湖脉学》</h2>
+                <div class="list_show show4">
+                    <img src="images/event27.png" style="height: 400px;" >
+                    <p class="m160 li-shizhen">
+                        <img src="images/event27-1.jpg"  >
+                        <span>本草学集大成之作。
+载药1897种，首次 <br>载入民间和外用药；分类以“部”为纲、<br>以“类”为目分类，基本符合进化论观点。
+</span>
+
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeList_item step" data-x="6600" data-y="0" id="32">
+                <div class="circle">王肯堂</div>
+                <h2 class="timeList_item_title">《证治准绳》</h2>
+                <div class="list_show show4">
+                    <img src="images/event28.jpg"  >
+                    <p class="m160 wang-kentang">
+                        <img src="images/event28-1.jpg" style="width: 400px;"  >
+                        <span>
+                            《证治准绳》<br>本书“列证最详、论治最精” ，<br>是17世纪流传最广的医学著作之一。
+</span>
+
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="6800" data-y="0" id="33">
+                <div class="circle">吴又可</div>
+                <h2 class="timeList_item_title">《温疫论》</h2>
+                <div class="list_show show4">
+                    <img src="images/event29.jpg"  >
+                    <p class="m160 wu-youke ">
+                        <img src="images/event29-1.png"   >
+                        <span>
+                            吴又可创立“疠气”之说，提出温疫 <br>邪气从口鼻而入，停留在半表半里之 <br> “膜原”，为温病学说的形成奠定了基础。
+
+</span>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeList_item step" data-x="7000" data-y="0" id="34">
+                <div class="circle">叶天士</div>
+                <h2 class="timeList_item_title">《温热论》</h2>
+                <div class="list_show ">
+                    <img src="images/event30.jpg"  style="height: 400px;">
+                    <p class="m160 ye-tianshi ">
+                        <img src="images/event30-1.jpg"   >
+                        <span>
+                            叶天士“首创温病卫、气、营、血辨证，提出“温邪上受，首先犯肺，逆传心包”，阐释温病发展、传变途径，为温病学说发展提供了理论基础。
+
+</span>
+
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="7200" data-y="0" id="35">
+                <div class="circle">吴鞠通</div>
+                <h2 class="timeList_item_title">《温病条辨》</h2>
+                <div class="list_show ">
+                    <img src="images/event31.png"  style="height: 400px;">
+                    <p class="m160 ye-tianshi ">
+                        <img src="images/event31-1.jpg"   >
+                        <span>
+                            吴鞠通创立了温病“三焦学说”，提出“治上焦如羽，非轻不举；治中焦如衡，非降不安；治下焦如沤，非重不沉”的治疗原则，沿用至今。
+
+</span>
+
+                    </p>
+                </div>
+            </div>
+            <div class="timeList_item step" data-x="7400" data-y="0" id="36">
+                <div class="circle">王孟英</div>
+                <h2 class="timeList_item_title">《温热经纬》</h2>
+                <div class="list_show show5">
+                    <img src="images/event32.png"  style="height: 400px;">
+                    <p class="m160 ye-tianshi ">
+                        <img src="images/event32-1.jpg"   >
+                        <span>
+                            王孟英明确提出“新感”、“伏邪”两大辨证纲领，“以轩岐仲景之文为经，叶薛诸家之辨为纬”，充实温病发病机理及辨证施治理论。
+</span>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeList_item step refresh" data-x="7600" data-y="0" id="37">
+                <div class="list_show">
+                    <a href='javascript:replay();'><img src="images/refress.png"/></a>
+                    <p class="end">中医的发展离不开您的支持！2018，我们会更加努力！</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div class="timeList_prev"></div>
+<div class="timeList_next"></div>
+<div class="gotop"><a href="#top"><img src="images/top.png" title="回顶部"/></a></div>
+
+
+<script type="text/javascript" src="js/impress.js"></script>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    var impress = $.browser.msie ? undefined : impress();
+    //预加载图片
+    new Image().src = "images/bg04.png";
+     var replay = function () {
+         console.log(111);
+         if (impress) {
+             impress.goto($("#0")[0]);
+         } else {
+             location.reload();
+         }
+     };
+
+
+var event_cache = null;
+
+//loop 是否循环播放     timing 定时器限制每个播放时间
+var loop = true, timing = null;
+
+$(function () {
+
+   /* $(window).bind('scroll resize', function () {
+        if ($(window).scrollTop() >= 1)
+            $('.gotop').css('display', 'block');
+        else
+            $('.gotop').css('display', 'none');
+    });*/
+
+   /* var cache_event_top = function () {
+        if (event_cache != null)
+            return;
+        event_cache = new Array(24);
+        var i = 0;
+        var length = event_cache.length;
+
+        for (; i < length; i++) {
+            var id = i + 1;
+            event_cache[i] = $("#" + id).position().top;
+        }
+    }*/
+
+    var resize = function () {
+        var width = $(window).width();
+        var height = $(window).height();
+        $(".bg img").css("width", width);
+        $(".bg img").css("height", height);
+
+    };
+
+    var cur_month = 2;
+
+    var getMonthByTop = function (top) {
+        console.log(222);
+        for (var i = 0, event = event_cache[i]; i < event_cache.length; i++) {
+            if (i == event_cache.length - 1 && top >= event || top >= event && top < event_cache[i + 1]) {
+                var date = $("#" + (i + 1)).find(".circle").html();
+                if (date) {
+                    var month = +date.split("/")[0];
+                    console.log(month)
+                    return month;
+                }
+            }
+        }
+        return cur_month;
+    };
+
+    var scroll = function () {
+        if ($.browser.msie) {
+            cache_event_top();
+            var st = $(window).scrollTop();
+            var month = getMonthByTop(st);
+            if (month != cur_month) {
+                changeBackground(month);
+                cur_month = month;
+            }
+        }
+    };
+
+    resize();
+
+    $(window).resize(function () {
+        resize();
+    });
+
+    $(window).scroll(function () {
+        scroll();
+    });
+
+    /*点击之后停止播放*/
+   /* $(".circle").click(function(){
+            loop = false;
+        if(timing)
+            clearInterval(timing);
+    });*/
+    /*最后一个的时候*/
+    /*$(".refresh img").click(function () {
+        loop = true;
+        $(".refresh img").addClass("rotate45");
+        setTimeout(function () {
+            $(".refresh img").removeClass("rotate45");
+        }, 2000);
+    });*/
+    /*音乐播放*/
+    if (!$.browser.msie) {
+        document.addEventListener('DOMContentLoaded', function () {
+            function audioAutoPlay() {
+                var audio = document.getElementById('player');
+                audio.play();
+            }
+            audioAutoPlay();
+        });
+/*
+        var audio = document.getElementById('player');
+        audio.oncanplay = function () {
+
+            audio.play();
+        }*/
+
+
+       /* bgMusic.loop = true;
+        bgMusic.volume = 0.7;*/
+
+
+        $('#bgMusicSwitch').click(function () {
+            var audio = document.getElementById('player');
+            if (audio.paused) {
+                audio.play();
+                $(".triangle").css("display", "none");
+                $(".pause").css("display", "block");
+                $("#bgMusicSwitch").attr("title", "暂停背景音乐");
+            } else {
+                audio.pause();
+                $(".pause").css("display", "none");
+                $(".triangle").css("display", "block");
+                $("#bgMusicSwitch").attr("title", "播放背景音乐");
+            }
+        });
+
+    } else {
+        $(".music").hide();
+    }
+
+});
+
+//window.location.href = '#1';
+
+$(".triangle").css("display", "none");
+$(".pause").css("display", "block");
+
+
+if (impress) impress.init();
+
+var last_month = 4;
+
+var changeBackground = function (month) {
+    console.log(month)
+//    console.log('背景',month)
+    var body = $("body");
+    var url = "";
+    url = "images/bg04.png";
+    $(".bg img").attr("src", url);
+};
+
+if (!$.browser.msie) {
+    document.addEventListener('impress:stepenter', function (e) {
+        var cur = arguments[0].target;
+        var date = $(cur)[0].id;
+        //控制左右切换图标的显示
+        if(date<= 6){
+            $('.timeList_prev').css('display','none');
+        }else {
+            $('.timeList_prev').css('display','block');
+        }
+        if(date> 32){
+            $('.timeList_next').css('display','none');
+        }else {
+            $('.timeList_next').css('display','block');
+        }
+
+        if (date) {
+            var month = +date.split("/")[0];
+            changeBackground(month);
+        }
+        if (!loop)
+            return;
+        if (typeof timing !== 'undefined') clearInterval(timing);
+        var duration = 1000 * 5;
+
+        timing = setInterval(function () {
+            var dom = impress.next();
+            var id = +$(dom).attr("id");
+            /*播放完成后停止播放*/
+            /*if(id==25){
+                clearInterval(timing);
+                loop = false;
+            }*/
+        }, duration);
+    });
+}
+
+
+//左右滑动翻页
+    $('body').on('touchstart', function (e) {
+        //touchstart事件
+        var $tb = $(this);
+        var startX = e.touches[0].clientX,//手指触碰屏幕的x坐标
+            pullDeltaX = 0;
+        $tb.on('touchmove', function (e) {
+            //touchmove事件
+            var x = e.touches[0].clientX;//手指移动后所在的坐标
+            pullDeltaX = x - startX;//移动后的位移
+            if (!pullDeltaX){
+                return;
+            }
+            e.preventDefault();//阻止手机浏览器默认事件
+        });
+        $tb.on('touchend', function (e) {
+            //touchend事件
+            $tb.off('touchmove touchend');//解除touchmove和touchend事件
+            //所要执行的代码
+            e.stopPropagation();
+
+            //判断移动距离是否大于50像素
+            if (pullDeltaX > 50 && that.pagerNum > 1){
+
+                //右滑，往前翻所执行的代码
+            }
+            //判断当前页面是否为最后一页
+            else if (pullDeltaX < -50 && that.pagerNum < that.$boxToggle.find('i').length){
+
+                //左滑，往后翻所执行的代码
+            }
+        });
+    });
+</script>
