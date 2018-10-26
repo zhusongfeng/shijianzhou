@@ -484,7 +484,6 @@
     //预加载图片
     new Image().src = "images/bg04.png";
      var replay = function () {
-         console.log(111);
          if (impress) {
              impress.goto($("#0")[0]);
          } else {
@@ -531,7 +530,6 @@ $(function () {
     var cur_month = 2;
 
     var getMonthByTop = function (top) {
-        console.log(222);
         for (var i = 0, event = event_cache[i]; i < event_cache.length; i++) {
             if (i == event_cache.length - 1 && top >= event || top >= event && top < event_cache[i + 1]) {
                 var date = $("#" + (i + 1)).find(".circle").html();
@@ -646,13 +644,13 @@ if (!$.browser.msie) {
     document.addEventListener('impress:stepenter', function (e) {
         var cur = arguments[0].target;
         var date = $(cur)[0].id;
-        //控制左右切换图标的显示
-        if(date<= 6){
+        //控制左右切换图标的显示 (当遇到朝代风格点时隐藏左右切换按钮)
+        if(date< 5 || date == 30 || date == 20 || date == 13 || date == 6){
             $('.timeList_prev').css('display','none');
         }else {
             $('.timeList_prev').css('display','block');
         }
-        if(date> 32){
+        if(date> 32 || date == 30 || date == 20 || date == 13 || date == 6 || date == 0){
             $('.timeList_next').css('display','none');
         }else {
             $('.timeList_next').css('display','block');
@@ -666,7 +664,6 @@ if (!$.browser.msie) {
             return;
         if (typeof timing !== 'undefined') clearInterval(timing);
         var duration = 1000 * 5;
-
         timing = setInterval(function () {
             var dom = impress.next();
             var id = +$(dom).attr("id");
